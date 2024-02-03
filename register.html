@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+        #register{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registeration Page</h2>
+    <form action="Register" method="post" class="shadow-lg rounded-3 p-4 w-50">
+                Name : 
+                <input type="text" name="name" id="name" class="form-control"><br>
+                Age : 
+                <input type="number" name="age" id="age" class="form-control"><br>
+                Username : 
+                <input type="text" name="uname" id="uname" class="form-control"><br>
+                Password : 
+                <input type="password" name="pass" id="pass" class="form-control"><br>
+                <input type="submit" value="Register" id="register" class="btn btn-primary mt-3">
+    </form>
+
+    <p class="m-3">Already Have an Account?<a href="index.html" class="text-decoration-none">Login</a></p>
+</body>
+</html>
