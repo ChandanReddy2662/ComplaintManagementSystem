@@ -49,7 +49,7 @@
         try{
             if(resultSet.next()){
                 resultSet.previous();
-                out.println("<table id=\"complaints\" class=\"table w-75 table-bordered table-striped table-hover table-responsive-md table-responsive-sm\">");
+                out.println("<table  id=\"complaints\" class=\"table w-75 table-bordered table-striped table-hover table-responsive-md table-responsive-sm\">");
                 out.println("<thead><tr><th>Complaint ID</th><th>Username</th><th>Date Of Complaint</th><th>Description</th><th>Status</th></tr></thead>");
                 while(resultSet.next()){
                     out.println("<tr><td>" + resultSet.getString(1) + "</td>");
