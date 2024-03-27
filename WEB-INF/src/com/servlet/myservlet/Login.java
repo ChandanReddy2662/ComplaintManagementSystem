@@ -33,8 +33,6 @@ public class Login extends HttpServlet{
                     requestDispatcher.forward(req, res);
                 }
                 else{
-                    // RequestDispatcher requestDispatcher = req.getRequestDispatcher("home.jsp");
-                    // requestDispatcher.forward(req, res);
                     res.sendRedirect("home.jsp");
                 }
                 
