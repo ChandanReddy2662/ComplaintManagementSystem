@@ -21,6 +21,10 @@
         <servlet-name>Logout</servlet-name>
         <servlet-class>com.servlet.myservlet.Logout</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>UpdateComplaints</servlet-name>
+        <servlet-class>com.servlet.myservlet.UpdateComplaints</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>Login</servlet-name>

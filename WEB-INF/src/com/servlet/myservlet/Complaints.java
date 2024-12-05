@@ -63,6 +63,7 @@ public class Complaints{
         try {
             this.stat = this.conn.createStatement();
             String delete = "delete from complaints where " + COLUMN_COMPLAINT_ID + "='" + complaint_id + "'";
+            System.out.println(delete);
             res = this.stat.executeUpdate(delete);
             this.stat.close();
         } catch (Exception e) {
@@ -107,6 +108,7 @@ public class Complaints{
         try {
             String complete = "UPDATE complaints SET status = 'completed'  where " + COLUMN_COMPLAINT_ID + "='" + complaint_id +"'";
             this.stat = this.conn.createStatement();
+            System.out.println(complete);
             res = this.stat.executeUpdate(complete);
         } catch (Exception e) {
             e.printStackTrace();

@@ -74,7 +74,7 @@
         <div id="raisecomplaint">   
             <div id="raisecomplaintform" class="from-group border border-2 rounded p-3 m-3">
                 <h1>Raise Complaint</h1>
-                <form action="Complaint" method="get" id="comp" class="form" >
+                <form action="Complaint" method="post" id="comp" class="form" >
                     <label for="desc">Description: </label>
                     <input type="text" name="desc" id="desc" class="form-control" placeholder="Enter Description">
                     <small id="emailHelp" class="form-text text-muted">Describe your problem</small><br><br>
